@@ -1,4 +1,5 @@
 /* Needed to compile with clang-17.0.6 and not gcc=13.2.1 to get desired effect */
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <time.h>
@@ -6,7 +7,7 @@
 #include <string.h>
 
 void sort(long* array) {
-    int i = 0;
+    int i;
     bool sorted;
 
     do {
